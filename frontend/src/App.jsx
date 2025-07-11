@@ -7,7 +7,7 @@ import CreatePage from './pages/CreatePage';
 function App() {
   return (
     <Box minH={"100vh"}>
-      <NavBar />
+      <Navbar />
       <Routes>
         <Route path = '/' element={<HomePage/>}/>
         <Route path = '/create' element={<CreatePage/>}/>
